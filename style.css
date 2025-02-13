@@ -1,0 +1,154 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+body {
+    background: #001;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+}
+.container {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    background: #123;
+    width: 25%;
+}
+.container .title {
+    display: flex;
+}
+.container .title img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin: 15px;
+    border: 3px solid #fff;
+}
+.container .title h2 {
+    color: #fff;
+    margin: 30px;
+}
+.container ul {
+    position: relative;
+    list-style: none;
+    height: 95%;
+}
+.container ul a {
+    display: block;
+    text-decoration: none;
+    background: #123;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 8px;
+}
+.container nav .active {
+    background: #ffffff55;
+}
+.container ul a:hover {
+    background: #ffffff55;
+    width: 90%;
+    margin: auto;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+.container ul li i {
+    color: #fff;
+    font-size: 30px;
+    margin: 5px 10px;
+}
+.container ul li span {
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    margin: 0 20px;
+}
+.btn {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+.btn i {
+    color: #fff;
+    font-size: 30px;
+    margin: 0 20px;
+}
+.btn button {
+    font-size: 30px;
+    font-weight: bold;
+    width: fit-content;
+    background: #a00;
+    color: #fff;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.content {
+    width: 100%;
+    margin: 10px;
+}
+.title-info {
+    background-color: #0481ff;
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+    margin: 10px 0;
+}
+.square {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    color: #fff;
+    height: 150px;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+.square .num {
+    background-color: #123;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+.square .num i {
+    width: 100px;
+    font-size: 30px;
+}
+.square .num .post {
+    text-align: center;
+    font-size: 15px;
+}
+.square .num .post span {
+    font-size: 20px;
+}
+
+table {
+    width: 100%;
+    border-spacing: 8px;
+    text-align: center;
+    color: #fff;
+}
+td, th {
+    background-color: #123;
+    height: 40px;
+    border-radius: 8px;
+}
+th {
+    background: #0481ff;
+}
+td:hover {
+    background-color: #ffffff55;
+}
+.price {
+    background-color: green;
+    padding: 6px;
+    border-radius: 6px;
+}
+.count {
+    background-color: gold;
+    color: black;
+    padding: 6px;
+    border-radius: 6px;
+}
